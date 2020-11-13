@@ -97,7 +97,7 @@ setup(name=mod,
       packages=[mod],
       package_dir={mod: mod},
       ext_modules = [ext],
-      install_requires=['tensorflow-gpu==1.14.0'],
+      install_requires=['tensorflow-gpu==2.3.1'],
       cmdclass={'build_ext': custom_build_ext},
 )
 
